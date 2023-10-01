@@ -1,2 +1,7 @@
-# Javaa
-Basic Intro To ds algo
+First code
+class Main{
+    public static void main(String args[])
+    {
+        System.out.println("Hello World");
+    }
+}
