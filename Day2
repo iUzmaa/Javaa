@@ -208,3 +208,83 @@ import java.util.*;
       System.out.println();
   }
     }}
+inverted half pyramid with numbers
+1234
+123
+12
+1
+code-
+import java.util.*;
+ public class Main{
+    public static void main(String args[])
+    {
+    Scanner sc=new Scanner(System.in);
+    int i;
+    int j;
+    int n=4;
+   
+    //outer loop
+  for(i=1;i<=n;i++)
+  {
+    
+      for(j=1;j<=n-i+1;j++)
+      {
+          System.out.print(j+" ");
+      }
+      System.out.println();
+  }
+    }}
+Floyids Traingle in java
+1
+23
+456
+code-
+import java.util.*;
+ public class Main{
+    public static void main(String args[])
+    {
+    Scanner sc=new Scanner(System.in);
+    int i;
+    int j;
+    int n=4;
+      int num=1;
+    for(i=1;i<=n;i++){
+      for(j=1;j<=i;j++)
+        {
+          System.out.print(num);
+          num++;
+        }
+      System.out.println("  ");
+    }}}
+
+0-1 traingle
+1
+01
+101
+code-
+import java.util.*;
+ public class Main{
+    public static void main(String args[])
+    {
+    Scanner sc=new Scanner(System.in);
+    int i;
+    int j;
+    int n=4;
+     
+    for(i=1;i<=n;i++){
+      for(j=1;j<=i;j++)
+        {
+          int sum=i+j;
+          if(sum%2==0)
+          {
+            System.out.print("1");
+          }
+          else
+          {
+            System.out.print("0");
+          }
+        }
+      System.out.println("  ");
+    }}}
+
+
